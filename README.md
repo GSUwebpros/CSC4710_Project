@@ -11,7 +11,7 @@
     pip install flask_mysqldb
     pip install mysql-connector-python
 
-** In the db_connector.py file, change the value of the password parameter of the "conn" object to whatever password you gave whilst downloading MySQL on your pc.
+** In the db_connection.py file, change the value of the password parameter of the "conn" object to whatever password you gave whilst downloading MySQL on your pc.
 ** if you did not give a password just leave it as an empty string
 
 ** The HTML files are templates that we can use to design the website. I just used some Bootstrap classes to have an interface to work with whilst doing the backend but we can delete and add our own CSS but the overall structure in terms of the number of HTML files should be similar to this.
