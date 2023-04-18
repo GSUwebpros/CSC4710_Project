@@ -72,7 +72,7 @@ def reviews():
     
     cursor.execute("SELECT * FROM Retail_Application.Reviews")
     reviews = cursor.fetchall()
-    print(reviews)
+    
     
     return render_template('review.html', reviews= reviews)
 
